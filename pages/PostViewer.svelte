@@ -33,9 +33,9 @@
     <p>Loading...</p>
   {:then val}
     <img src={postInfoL['cover-img']} alt="cover img" class="cover-image">
-    <h2>{postInfoL.title}</h2> - 
+    <h2>{@html postInfoL.title}</h2> - 
     <i><Time relative timestamp={postInfoL.createdAt}></Time></i>
-    <p>{postInfoL['post-content']}</p>
+    <p>{@html postInfoL['post-content']}</p>
     <SharePanel 
     linkTo={postInfoL.title + " https://pkw79.csb.app/#/posts/"+postInfoL.postId}
     >

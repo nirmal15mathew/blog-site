@@ -4,18 +4,6 @@
   import Home from "./components/Home.svelte";
   import Router from "svelte-spa-router";
   import { wrap } from "svelte-spa-router/wrap";
-  import { setContext, onMount } from "svelte";
-  import { writable } from "svelte/store";
-
-  let loginState = writable(0);
-
-  function toggleLoginState() {
-    $loginState = !loginState;
-  }
-  setContext("user-log", {
-    state: loginState,
-    changeState: toggleLoginState
-  });
 
   const navLinks = [
     {

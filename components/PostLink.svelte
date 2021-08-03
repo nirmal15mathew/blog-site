@@ -18,11 +18,13 @@
 	  margin: 0.2em;
 	}
 	.container {
+	  --w: calc(0.2045 * 100vw);
+	  --h: calc(0.5997 * 100vh);
 	  background-repeat: no-repeat;
 	  background-position: center;
 	  background-size: cover;
-	  width: calc(0.2045 * 100vw);
-	  height: calc(0.5997 * 100vh);
+	  width: var(--w);
+	  height: var(--h);
 	  position: relative;
 	  transition: box-shadow 200ms;
 	  border: 3px solid #ccc;
@@ -49,7 +51,7 @@
 	  background-color: #fefefe;
 	  display: flex;
 	  align-items: center;
-	  padding: 20px;
+	  padding: 0.7em;
 	  position: absolute;
 	  right: 0;
 	  left: 0;
@@ -65,6 +67,12 @@
 	}
 	.container .container__profile p b {
 	  font-style: italic;
+	}
+	h2 {
+	  overflow: hidden;
+	  white-space: normal;
+	  text-overflow: ellipsis;
+	  width: var(--w);
 	}
 </style>
 <a class="Post-Link__Container" href={`#/posts/${postInfo.postId}`}>

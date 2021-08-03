@@ -29,7 +29,7 @@
     margin: 0 0.1em;
   }
   li:hover {
-    color: #ff3e00;
+    color: #40b3ff;
   }
   ul {
     margin: 0;
@@ -49,7 +49,7 @@
     color: inherit;
   }
   .link.is-active {
-    color: #ff3e00;
+    color: #40b3ff;
   }
 </style>
 <header>

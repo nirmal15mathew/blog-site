@@ -1,8 +1,8 @@
 <script>
+  export let changeState;
   import { onMount, setContext, getContext } from "svelte";
   import sha1 from "sha1";
   import supabase from "../src/supabaseClient";
-  let userLoggedIn = getContext("user-log");
   let userName = "";
   let password = "";
   let serverUser = "";
@@ -12,7 +12,7 @@
     let passHash = sha1(password);
     if (userName === serverUser) {
       if (passHash === serverHash) {
-        $userLoggedIn.changeState();
+        changeState();
       }
     }
   }
