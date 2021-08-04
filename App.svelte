@@ -1,5 +1,4 @@
 <script>
-  import Button from "./Button.svelte";
   import Header from "./components/Header.svelte";
   import Home from "./components/Home.svelte";
   import Router from "svelte-spa-router";
