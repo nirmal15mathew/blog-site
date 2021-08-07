@@ -13,7 +13,7 @@ export default {
   input: "index.js",
   output: {
     sourcemap: true,
-    format: "iife",
+    format: "cjs",
     name: "app",
     file: "public/bundle.js"
   },
