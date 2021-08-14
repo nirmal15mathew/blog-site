@@ -1,0 +1,69 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap);
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+header.svelte-1pzffkv{display:flex;align-items:center;justify-content:space-between;color:#373737;padding:1em}h2.svelte-1pzffkv{margin:0}li.svelte-1pzffkv{list-style:none;font-weight:500;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;cursor:pointer;transition:color 200ms;margin:0 0.1em}li.svelte-1pzffkv:hover{color:#40b3ff}ul.svelte-1pzffkv{margin:0;display:flex;justify-content:space-evenly;align-items:center;flex:2;padding:0}figure.svelte-1pzffkv{margin:0;display:flex;flex:1}a.svelte-1pzffkv{text-decoration:none;color:inherit}.link.is-active.svelte-1pzffkv{color:#40b3ff}
+main.svelte-ujh9c4.svelte-ujh9c4{width:100%;display:flex;flex-direction:column;align-content:center;justify-content:center}figure.svelte-ujh9c4.svelte-ujh9c4{text-align:center}.social-container.svelte-ujh9c4.svelte-ujh9c4{width:100%;text-align:center}.social-icons.svelte-ujh9c4.svelte-ujh9c4{padding:0;list-style:none;margin:1em}.social-icons.svelte-ujh9c4 li.svelte-ujh9c4{display:inline-block;margin:0.15em;position:relative;font-size:1.2em}.social-icons.svelte-ujh9c4 i.svelte-ujh9c4{color:#fff;position:absolute;top:21px;left:21px;transition:all 265ms ease-out}.social-icons.svelte-ujh9c4 a.svelte-ujh9c4{display:flex;align-content:center;justify-content:center}.social-icons.svelte-ujh9c4 a.svelte-ujh9c4:before{transform:scale(1);-ms-transform:scale(1);-webkit-transform:scale(1);content:" ";width:60px;height:60px;border-radius:100%;display:block;background:linear-gradient(45deg, #00b5f5, #002a8f);transition:all 265ms ease-out}.social-icons.svelte-ujh9c4 a.svelte-ujh9c4:hover:before{transform:scale(0);transition:all 265ms ease-in}.social-icons.svelte-ujh9c4 a:hover i.svelte-ujh9c4{transform:scale(2.2);-ms-transform:scale(2.2);-webkit-transform:scale(2.2);color:#00b5f5;background:-webkit-linear-gradient(45deg, #00b5f5, #002a8f);-webkit-background-clip:text;-webkit-text-fill-color:transparent;transition:all 265ms ease-in}.small.svelte-ujh9c4.svelte-ujh9c4{font-size:small;text-align:center}
+main.svelte-1evlp8d{font-family:"Overpass", sans-serif}.svelte-1evlp8d{--dark-color:#283d3b;--green:#197278;--light-color:#edddd4;--orange-red:#c44536;--liver-organ:#772e25;--dark-blue:#0a2342;color:#373737}
