@@ -1,6 +1,6 @@
-const supabaseUrl = "https://vbdvzbwkruxheszrtins.supabase.co";
+const supabaseUrl = "/****";
 const supabaseAnonKey =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYyNzIzMDUxNiwiZXhwIjoxOTQyODA2NTE2fQ.lnzEviyI-tuu1P_c-FsKAtlv0IkPRFkeQXetJ2DnWw0";
+  "*******";
 
 const spb = supabase.createClient(supabaseUrl, supabaseAnonKey);
 export default spb;
