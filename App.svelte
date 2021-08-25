@@ -22,6 +22,7 @@
       link: "#/"
     }
   ];
+
   const routes = {
     "/": Home,
     "/culture": wrap({
@@ -61,6 +62,6 @@
   }
 </style>
 <main>
-  <Header appTitle="App" appNavLinks={navLinks} appIcon=""/>
+  <Header appTitle="Kavad" appNavLinks={navLinks} appIcon=""/>
   <Router {routes} />
 </main>
