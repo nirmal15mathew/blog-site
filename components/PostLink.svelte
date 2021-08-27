@@ -27,12 +27,11 @@
 	  height: var(--h);
 	  position: relative;
 	  transition: box-shadow 200ms;
-	  border: 3px solid #ccc;
 	  min-width: 170px;
 	  border-radius: 0.5em;
 	}
 	.container:hover {
-	  box-shadow: 0 0 20px rgba(0, 0, 0, 0.315);
+	  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.315);
 	}
 	.container .container__info {
 	  position: absolute;
